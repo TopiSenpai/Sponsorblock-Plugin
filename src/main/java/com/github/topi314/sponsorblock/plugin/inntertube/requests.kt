@@ -99,10 +99,11 @@ inline fun <reified B, reified R> HttpInterface.makeRequest(
         builder()
     }
 
-    val response = execute(post)
-    val jsonText = response.entity.content.buffered().readAllBytes().decodeToString()
+    execute(post).use {
+        val jsonText = it.entity.content.buffered().readAllBytes().decodeToString()
 
-    return json.decodeFromString(jsonText)
+        return json.decodeFromString(jsonText)
+    }
 }
 
 private fun String.parseDuration(): Duration {
