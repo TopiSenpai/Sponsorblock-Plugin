@@ -164,9 +164,9 @@ This event is dispatched when the segments for a track have been loaded.
 
 Type name: `SegmentsLoaded`
 
-| Field    | Type                                    | Description                    |
-|----------|-----------------------------------------|--------------------------------|
-| segments | Array of [Segment](#segment) objects. | The segments that were loaded.   |
+| Field    | Type                                  | Description                    |
+|----------|---------------------------------------|--------------------------------|
+| segments | Array of [Segment](#segment) objects. | The segments that were loaded. |
 
 <details>
 <summary>Example Payload</summary>
@@ -222,8 +222,8 @@ This event is dispatched when the chapters for a track have been loaded.
 
 Type name: `ChaptersLoaded`
 
-| Field    | Type                                    | Description                    |
-|----------|-----------------------------------------|--------------------------------|
+| Field    | Type                                  | Description                    |
+|----------|---------------------------------------|--------------------------------|
 | chapters | Array of [Chapter](#chapter) objects. | The chapters that were loaded. |
 
 <details>
