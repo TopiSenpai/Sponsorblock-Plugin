@@ -40,16 +40,16 @@ The category types.
 
 > **Note** You can find more information here: https://wiki.sponsor.ajay.app/w/Segment_Categories
 
-| Name           | Description                                                                                                                                                                      |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| sponsor        | Paid promotion, paid referrals and direct advertisements. Not for self-promotion or free shoutouts to causes/creators/websites/products they like.                               |
-| selfpromo      | Similar to "sponsor" except for unpaid or self promotion. This includes sections about merchandise, donations, or information about who they collaborated with.                  |
-| interaction    | When there is a short reminder to like, subscribe or follow them in the middle of content. If it is long or about something specific, it should be under self promotion instead. |
-| intro          | An interval without actual content. Could be a pause, static frame, repeating animation. This should not be used for transitions containing information.                         |
-| outro          | Credits or when the YouTube endcards appear. Not for conclusions with information.                                                                                               |
-| preview        | Collection of clips that show what is coming up in in this video or other videos in a series where all information is repeated later in the video.                               |
-| music_offtopic | Only for use in music videos. This only should be used for sections of music videos that aren't already covered by another category.                                             |
-| filler         | Tangential scenes or jokes that are not required to understand the main content of the video. This should not include segments providing context or background details.          |
+| Name           | Description                                                                                   |
+|----------------|-----------------------------------------------------------------------------------------------|
+| sponsor        | Paid promotion, paid referrals and direct advertisements.                                     |
+| selfpromo      | Merchandise, donations, or information about who they collaborated with.                      |
+| interaction    | Like, subscribe or follow in the middle of content.                                           |
+| intro          | An introduction to a section of the video, without actual content.                            |
+| outro          | Credits or when the YouTube endcards appear.                                                  |
+| preview        | Collection of clips that show what is coming up in this video.                                |
+| music_offtopic | Offtopic music content that isn't covered by other categories.                                |
+| filler         | Tangential scenes or jokes that are not required to understand the main content of the video. |
 
 ##### Segment
 
