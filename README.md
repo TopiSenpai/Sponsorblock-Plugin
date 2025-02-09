@@ -15,13 +15,12 @@ To install this plugin either download the latest release and place it into your
 > **Note**
 > For a full `application.yml` example see [here](application.example.yml)
 
-Replace x.y.z with the latest version number
-
 ```yaml
 lavalink:
   plugins:
-    - dependency: "com.github.topi314.lavalyrics:lavalyrics-plugin:x.y.z"
-    #  snapshot: false # set to true if you want to use snapshot builds (see below)
+    - dependency: "com.github.topi314.sponsorblock:sponsorblock-plugin:x.x.x" # replace x.x.x with the latest release tag!
+      repository: "https://maven.lavalink.dev/releases" # this is optional for lavalink v4.0.0-beta.5 or greater
+      snapshot: false # set to true if you want to use snapshot builds (see below)
 ```
 
 Snapshot builds are available in https://maven.lavalink.dev/snapshots with the short commit hash as the version
@@ -55,11 +54,11 @@ The category types.
 
 A segment of the track.
 
-| Name     | Type                           | Description                                      |
-|----------|--------------------------------|--------------------------------------------------|
-| category | [Categories](#categories) type | The category type for the segment.               |
-| start    | int                            | The start time of this segment (in milliseconds) |
-| end      | int                            | The end time of this segment (in milliseconds)   |
+| Name     | Type                           | Description                                       |
+|----------|--------------------------------|---------------------------------------------------|
+| category | [Categories](#categories) type | The category type for the segment.                |
+| start    | int                            | The start time of this segment. (in milliseconds) |
+| end      | int                            | The end time of this segment. (in milliseconds)   |
 
 ##### Chapter
 
