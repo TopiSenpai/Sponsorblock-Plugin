@@ -68,8 +68,8 @@ A chapter of the track.
 | Name     | Type   | Description                                       |
 |----------|--------|---------------------------------------------------|
 | name     | string | The chapter name.                                 |
-| start    | int    | The start time of this segment. (in milliseconds) |
-| end      | int    | The end time of this segment. (in milliseconds)   |
+| start    | int    | The start time of this chapter. (in milliseconds) |
+| end      | int    | The end time of this chapter. (in milliseconds)   |
 | duration | string | The duration of the chapter. (in milliseconds)    |
 
 #### Get Categories
