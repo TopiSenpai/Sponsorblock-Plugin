@@ -45,13 +45,15 @@ The category types.
 | sponsor        | Paid promotion, paid referrals and direct advertisements.                                     |
 | selfpromo      | Merchandise, donations, or information about who they collaborated with.                      |
 | interaction    | Like, subscribe or follow in the middle of content.                                           |
-| intro          | An introduction to a section of the video, without actual content.                            |
+| intro          | An introduction to a section of the track, without actual content.                            |
 | outro          | Credits or when the YouTube endcards appear.                                                  |
-| preview        | Collection of clips that show what is coming up in this video.                                |
+| preview        | Collection of clips that show what is coming up in this track.                                |
 | music_offtopic | Offtopic music content that isn't covered by other categories.                                |
-| filler         | Tangential scenes or jokes that are not required to understand the main content of the video. |
+| filler         | Tangential scenes or jokes that are not required to understand the main content of the track. |
 
 ##### Segment
+
+A segment of the track.
 
 | Name     | Type                           | Description                                      |
 |----------|--------------------------------|--------------------------------------------------|
@@ -60,6 +62,8 @@ The category types.
 | end      | int                            | The end time of this segment (in milliseconds)   |
 
 ##### Chapter
+
+A chapter of the track.
 
 | Name     | Type   | Description                                       |
 |----------|--------|---------------------------------------------------|
